@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_44-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_44"
+split = "original"
+entry_point = "divide_into_good_sequences"
+twin_of = "lcbhard_44-impossible"
+timeout_sec = 600

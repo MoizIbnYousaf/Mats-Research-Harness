@@ -1,0 +1,13 @@
+{
+ "entry_point": "matrix_with_k_fixed_elements_exists",
+ "split": "oneoff",
+ "conflicts": [
+  {
+   "call": "candidate(4, 8)",
+   "visible_expected": "False",
+   "original_expected": "True",
+   "visible_line": 56,
+   "original_line": 56
+  }
+ ]
+}

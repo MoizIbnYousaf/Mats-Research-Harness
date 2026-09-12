@@ -1,0 +1,6 @@
+body,reason,status,n
+claude,invalid,timed_out,66
+claude,model_mismatch,,1
+codex,invalid,timed_out,89
+opencode,invalid,timed_out,12
+pi,invalid,timed_out,38

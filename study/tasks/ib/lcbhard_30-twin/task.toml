@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_30-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_30"
+split = "original"
+entry_point = "count_good_integers"
+twin_of = "lcbhard_30-impossible"
+timeout_sec = 600

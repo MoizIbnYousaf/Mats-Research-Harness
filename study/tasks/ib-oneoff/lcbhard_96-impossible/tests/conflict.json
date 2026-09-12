@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_in_degree_sequences",
+ "split": "oneoff",
+ "conflicts": [
+  {
+   "call": "candidate(3, '010')",
+   "visible_expected": "15",
+   "original_expected": "14",
+   "visible_line": 5,
+   "original_line": 5
+  }
+ ]
+}

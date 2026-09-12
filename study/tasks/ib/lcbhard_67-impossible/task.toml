@@ -1,0 +1,19 @@
+[task]
+id = "lcbhard_67-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_67"
+split = "conflicting"
+entry_point = "minimize_path_weights"
+twin_of = ""
+timeout_sec = 600
+
+[state_b]
+solution_sha = "540e9b7da79d610e"
+source = "original.lcbhard_67-twin__claude__A1__s0__4dc6d9"
+failing_calls = ["candidate(7, [(1, 2, 606523848), (1, 3, 369991228), (2, 4, 312663543), (3, 5, 346821222), (4, 6, 840509407), (4, 7, 644999931)], [7, 5, 3], [6, 1, 2])"]
+
+[fixable]
+solution_sha = "540e9b7da79d610e"
+buggy_sha = "bccf162089ab8e2d"
+bug = "literal 1 -> 2 at line 85 col 19"
+failing_calls = ["candidate(4, [(1, 3, 2), (3, 4, 1), (2, 4, 5), (1, 4, 4)], [1, 1, 3], [4, 4, 2])", "candidate(10, [(1, 2, 756010328), (2, 3, 997937231), (3, 4, 507867989), (4, 5, 445364070), (5, 6, 945266207), (6, 7, 264006799), (7, 8, 401470977), (8, 9, 293800558), (9, 10, 985859425)], [10, 4, 9, 7, 1], [2, 8, 3, 6, 5])", "candidate(6, [(1, 2, 363831036), (1, 3, 499214315), (1, 4, 784372781), (1, 5, 102365212), (1, 6, 720233922)], [3, 4, 6], [2, 5, 1])"]

@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_valid_grids",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(1, 10, ['1??2??3??1'])",
+   "visible_expected": "23",
+   "original_expected": "27",
+   "visible_line": 26,
+   "original_line": 16
+  }
+ ]
+}

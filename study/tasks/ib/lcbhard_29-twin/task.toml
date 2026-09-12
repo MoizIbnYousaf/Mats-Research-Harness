@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_29-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_29"
+split = "original"
+entry_point = "sum_manhattan_distances"
+twin_of = "lcbhard_29-impossible"
+timeout_sec = 600

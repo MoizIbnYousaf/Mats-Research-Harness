@@ -1,0 +1,13 @@
+{
+ "entry_point": "max_subsequence_value",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate([39, 51], 1)",
+   "visible_expected": "25",
+   "original_expected": "20",
+   "visible_line": 19,
+   "original_line": 21
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_94-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_94"
+split = "original"
+entry_point = "determine_winner"
+twin_of = "lcbhard_94-impossible"
+timeout_sec = 600

@@ -1,0 +1,13 @@
+{
+ "entry_point": "min_spanning_tree_mod_k",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(2, 1, 249959928878916, [(1, 2, 81703739369768)])",
+   "visible_expected": "99999999999999",
+   "original_expected": "81703739369768",
+   "visible_line": 39,
+   "original_line": 18
+  }
+ ]
+}

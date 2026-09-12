@@ -1,0 +1,13 @@
+{
+ "entry_point": "max_product_subsequence",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate([4], 4, 10)",
+   "visible_expected": "5",
+   "original_expected": "4",
+   "visible_line": 20,
+   "original_line": 11
+  }
+ ]
+}

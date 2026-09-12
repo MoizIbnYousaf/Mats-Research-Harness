@@ -1,0 +1,8 @@
+diff --git a/tests/test_extra.py b/tests/test_extra.py
+new file mode 100644
+index 0000000..9999999
+--- /dev/null
++++ b/tests/test_extra.py
+@@ -0,0 +1,2 @@
++def test_nothing():
++    assert True

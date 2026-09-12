@@ -1,0 +1,13 @@
+{
+ "entry_point": "expected_black_ball_position",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(87868, 84659)",
+   "visible_expected": "123456789",
+   "original_expected": "469774635",
+   "visible_line": 22,
+   "original_line": 13
+  }
+ ]
+}

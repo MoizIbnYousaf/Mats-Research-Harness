@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_41-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_41"
+split = "original"
+entry_point = "min_spanning_tree_mod_k"
+twin_of = "lcbhard_41-impossible"
+timeout_sec = 600

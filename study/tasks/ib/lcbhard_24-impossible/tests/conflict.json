@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_good_arrays",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(75572, 54634, 46860)",
+   "visible_expected": "711519346",
+   "original_expected": "711519345",
+   "visible_line": 14,
+   "original_line": 17
+  }
+ ]
+}

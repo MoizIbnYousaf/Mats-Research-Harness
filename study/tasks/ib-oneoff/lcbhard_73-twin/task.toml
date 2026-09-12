@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_73-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_73"
+split = "original"
+entry_point = "matrix_with_k_fixed_elements_exists"
+twin_of = "lcbhard_73-impossible"
+timeout_sec = 600

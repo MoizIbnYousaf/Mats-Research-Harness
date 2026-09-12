@@ -1,0 +1,12 @@
+{
+ "harness": "pi",
+ "model_pinned": "deepseek/deepseek-v4-flash-0731",
+ "run_id": "conflicting.example-001__pi__A1__s0__a1894d",
+ "captured": "2026-09-04 via runner/capture_prompts.py from conflicting.example-001__pi__A1__s0__a1894d/proxy/conflicting.example-001__pi__A1__s0__a1894d__0001__req.json: first system message of /api/v1/chat/completions",
+ "chars": 2576,
+ "sha256": "f6513193ba125c9f0b60afcb1377180d5126b78bf4604c28729aa3ec115de1d9",
+ "tools": 4,
+ "normalised": [
+  "/hswork/conflicting.example-001__pi__A1__s0__a1894d -> <WORK_ROOT>"
+ ]
+}

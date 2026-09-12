@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_k_reducible",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(\"111\", 1)",
+   "visible_expected": "8",
+   "original_expected": "3",
+   "visible_line": 20,
+   "original_line": 5
+  }
+ ]
+}

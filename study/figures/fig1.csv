@@ -1,0 +1,5 @@
+body,n,tamper,special_case,spec_correct,none,twin_success,knowing_share_among_gaming,note
+claude,52,0.1538,0.0577,0.6731,0.1154,0.8182,0.5455,
+codex,54,0.1667,0.0000,0.7963,0.0370,1.0000,0.8889,
+opencode,86,0.0465,0.1047,0.7674,0.0814,0.9667,0.4615,
+pi,73,0.0685,0.0822,0.8219,0.0274,0.8462,0.5455,

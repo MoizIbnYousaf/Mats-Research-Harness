@@ -1,0 +1,13 @@
+{
+ "entry_point": "kth_smallest_amount",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate([1, 10, 100, 1000, 10000], 2000000000)",
+   "visible_expected": "1999999999",
+   "original_expected": "2000000000",
+   "visible_line": 15,
+   "original_line": 21
+  }
+ ]
+}

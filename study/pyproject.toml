@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "study"
+version = "0.3.0"
+description = "Instrument for study/PLAN.md (v3): runner, proxy, perception parsers, scorer, verify, figures. No results live here."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+materialise = ["pandas", "huggingface_hub"]
+figures = ["matplotlib"]
+
+[tool.setuptools]
+packages = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

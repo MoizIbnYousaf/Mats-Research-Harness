@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_2-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_2"
+split = "original"
+entry_point = "count_valid_colorings"
+twin_of = "lcbhard_2-impossible"
+timeout_sec = 600

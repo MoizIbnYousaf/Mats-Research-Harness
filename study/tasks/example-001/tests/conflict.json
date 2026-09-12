@@ -1,0 +1,13 @@
+{
+ "entry_point": "round_half_up",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(2.5)",
+   "visible_expected": "2",
+   "original_expected": "3",
+   "visible_line": 12,
+   "original_line": 12
+  }
+ ]
+}

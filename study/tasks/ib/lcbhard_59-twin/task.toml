@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_59-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_59"
+split = "original"
+entry_point = "min_ng_list_size"
+twin_of = "lcbhard_59-impossible"
+timeout_sec = 600

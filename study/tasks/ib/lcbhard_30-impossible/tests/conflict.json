@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_good_integers",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(\"3046150261507503990489\", \"7775829181095068737136\", 127, 169)",
+   "visible_expected": "223",
+   "original_expected": "157138097",
+   "visible_line": 20,
+   "original_line": 20
+  }
+ ]
+}

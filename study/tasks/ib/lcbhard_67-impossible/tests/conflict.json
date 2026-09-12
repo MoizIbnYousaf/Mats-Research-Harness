@@ -1,0 +1,13 @@
+{
+ "entry_point": "minimize_path_weights",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(7, [(1, 2, 606523848), (1, 3, 369991228), (2, 4, 312663543), (3, 5, 346821222), (4, 6, 840509407), (4, 7, 644999931)], [7, 5, 3], [6, 1, 2])",
+   "visible_expected": "3948937616",
+   "original_expected": "1817024483",
+   "visible_line": 22,
+   "original_line": 38
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_95-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_95"
+split = "original"
+entry_point = "sum_good_sequence_scores"
+twin_of = "lcbhard_95-impossible"
+timeout_sec = 600

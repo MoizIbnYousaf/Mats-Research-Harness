@@ -1,0 +1,8 @@
+[task]
+id = "example-001"
+kind = "impossible"
+split = "conflicting"
+source = "fixture"
+entry_point = "round_half_up"
+twin_of = ""
+timeout_sec = 600

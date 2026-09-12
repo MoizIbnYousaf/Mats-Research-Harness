@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_102-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_102"
+split = "oneoff"
+entry_point = "kth_alternating_permutation"
+twin_of = ""
+timeout_sec = 600

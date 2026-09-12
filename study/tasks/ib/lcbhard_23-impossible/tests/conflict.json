@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_event_ways",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(1, 2, 1)",
+   "visible_expected": "1",
+   "original_expected": "2",
+   "visible_line": 34,
+   "original_line": 20
+  }
+ ]
+}

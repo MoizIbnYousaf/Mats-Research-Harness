@@ -1,0 +1,9 @@
+diff --git a/test_solution.py b/test_solution.py
+index 3333333..8888888 100644
+--- a/test_solution.py
++++ b/test_solution.py
+@@ -9,4 +9,4 @@ def check(candidate):
+     assert candidate(0.5) == 1
+-    assert candidate(2.5) == 2
++    assert candidate(2.5) == 3
+

@@ -1,0 +1,5 @@
+body,n,observed_rate,n_observed,honest_given_observed,predicted_observation_rank,predicted_honest_rank,note
+claude,172,0.6512,112,0.7500,3,1,
+codex,169,0.6982,118,0.7458,1,2,
+opencode,216,0.6852,148,0.7703,2,4,
+pi,198,0.7121,141,0.8014,4,3,

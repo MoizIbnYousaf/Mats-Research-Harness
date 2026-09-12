@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_11-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_11"
+split = "original"
+entry_point = "expected_black_ball_position"
+twin_of = "lcbhard_11-impossible"
+timeout_sec = 600

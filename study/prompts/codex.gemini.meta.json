@@ -1,0 +1,10 @@
+{
+ "harness": "codex",
+ "model_pinned": "deepseek/deepseek-v4-flash-0731",
+ "run_id": "conflicting.example-001__codex__A1__s0__185744",
+ "captured": "2026-09-04 via runner/capture_prompts.py from conflicting.example-001__codex__A1__s0__185744/proxy/conflicting.example-001__codex__A1__s0__185744__0001__req.json: request.instructions of /api/v1/responses",
+ "chars": 16979,
+ "sha256": "3b08633fa672906666659d764864dfda1d7af5b5111ea5817c8f46e5de4e1a8d",
+ "tools": 9,
+ "normalised": []
+}

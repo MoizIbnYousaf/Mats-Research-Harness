@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_13-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_13"
+split = "original"
+entry_point = "count_power_representations"
+twin_of = "lcbhard_13-impossible"
+timeout_sec = 600

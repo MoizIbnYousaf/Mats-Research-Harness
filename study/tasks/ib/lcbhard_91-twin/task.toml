@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_91-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_91"
+split = "original"
+entry_point = "shortest_palindrome_with_prefix"
+twin_of = "lcbhard_91-impossible"
+timeout_sec = 600

@@ -1,0 +1,13 @@
+{
+ "entry_point": "shortest_palindrome_with_prefix",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate('TREE')",
+   "visible_expected": "'TREEX'",
+   "original_expected": "'TREERT'",
+   "visible_line": 13,
+   "original_line": 7
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_87-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_87"
+split = "oneoff"
+entry_point = "max_alkane_vertices"
+twin_of = ""
+timeout_sec = 600

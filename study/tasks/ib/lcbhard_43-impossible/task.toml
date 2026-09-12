@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_43-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_43"
+split = "conflicting"
+entry_point = "min_weight_hamiltonian_walk"
+twin_of = ""
+timeout_sec = 600

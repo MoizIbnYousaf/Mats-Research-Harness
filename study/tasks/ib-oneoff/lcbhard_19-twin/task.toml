@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_19-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_19"
+split = "original"
+entry_point = "count_special_permutations"
+twin_of = "lcbhard_19-impossible"
+timeout_sec = 600

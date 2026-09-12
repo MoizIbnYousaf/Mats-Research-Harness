@@ -1,0 +1,170 @@
+{
+  "antigravity": {
+    "body": "antigravity",
+    "native": true,
+    "proxy": null,
+    "model": "gemini-3.8-flash-medium",
+    "argv": [
+      "agy",
+      "-p",
+      "<task>",
+      "--model",
+      "gemini-3.8-flash-medium",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--dangerously-skip-permissions",
+      "--print-timeout",
+      "10m"
+    ],
+    "env": {
+      "PATH": "/usr/bin:/bin",
+      "HOME": "/Users/moizibnyousaf",
+      "TERM": "xterm",
+      "LANG": "C.UTF-8",
+      "CI": "1"
+    },
+    "files": [],
+    "cwd": "/tmp/hs-work/dry/work"
+  },
+  "claude": {
+    "body": "claude",
+    "native": false,
+    "proxy": "http://127.0.0.1:8931",
+    "model": "google/gemini-3.8-flash",
+    "argv": [
+      "claude",
+      "--model",
+      "google/gemini-3.8-flash",
+      "-p",
+      "<task>",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--dangerously-skip-permissions",
+      "--max-turns",
+      "25"
+    ],
+    "env": {
+      "PATH": "/usr/bin:/bin",
+      "HOME": "/tmp/hs-work/dry/home",
+      "TERM": "xterm",
+      "LANG": "C.UTF-8",
+      "CI": "1",
+      "HS_RUN_ID": "dry",
+      "OPENROUTER_API_KEY": "hs_dry",
+      "CLAUDE_CONFIG_DIR": "/tmp/hs-work/dry/home/.claude",
+      "ANTHROPIC_BASE_URL": "http://127.0.0.1:8931/api",
+      "ANTHROPIC_AUTH_TOKEN": "hs_dry",
+      "ANTHROPIC_API_KEY": "",
+      "CLAUDE_CODE_SKIP_FAST_MODE_ORG_CHECK": "1",
+      "CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY": "1",
+      "ENABLE_TOOL_SEARCH": "false",
+      "CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT": "1",
+      "ANTHROPIC_MODEL": "google/gemini-3.8-flash",
+      "ANTHROPIC_DEFAULT_SONNET_MODEL": "google/gemini-3.8-flash",
+      "ANTHROPIC_DEFAULT_OPUS_MODEL": "google/gemini-3.8-flash",
+      "ANTHROPIC_DEFAULT_HAIKU_MODEL": "google/gemini-3.8-flash",
+      "ANTHROPIC_DEFAULT_FABLE_MODEL": "google/gemini-3.8-flash"
+    },
+    "files": [],
+    "cwd": "/tmp/hs-work/dry/work"
+  },
+  "codex": {
+    "body": "codex",
+    "native": false,
+    "proxy": "http://127.0.0.1:8931",
+    "model": "google/gemini-3.8-flash",
+    "argv": [
+      "codex",
+      "exec",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--json",
+      "--output-last-message",
+      "/tmp/hs-work/dry/final_message.txt",
+      "--",
+      "<task>"
+    ],
+    "env": {
+      "PATH": "/usr/bin:/bin",
+      "HOME": "/tmp/hs-work/dry/home",
+      "TERM": "xterm",
+      "LANG": "C.UTF-8",
+      "CI": "1",
+      "HS_RUN_ID": "dry",
+      "OPENROUTER_API_KEY": "hs_dry",
+      "CODEX_HOME": "/tmp/hs-work/dry/home/.codex"
+    },
+    "files": [
+      {
+        "path": "/tmp/hs-work/dry/home/.codex/config.toml",
+        "content": "model = \"google/gemini-3.8-flash\"\nmodel_provider = \"hsproxy\"\nmodel_reasoning_effort = \"medium\"\n[model_providers.hsproxy]\nname = \"study proxy\"\nbase_url = \"http://127.0.0.1:8931/api/v1\"\nenv_key = \"OPENROUTER_API_KEY\"\nwire_api = \"responses\"\n"
+      }
+    ],
+    "cwd": "/tmp/hs-work/dry/work"
+  },
+  "opencode": {
+    "body": "opencode",
+    "native": false,
+    "proxy": "http://127.0.0.1:8931",
+    "model": "google/gemini-3.8-flash",
+    "argv": [
+      "opencode",
+      "run",
+      "--model",
+      "openrouter/google/gemini-3.8-flash",
+      "<task>"
+    ],
+    "env": {
+      "PATH": "/usr/bin:/bin",
+      "HOME": "/tmp/hs-work/dry/home",
+      "TERM": "xterm",
+      "LANG": "C.UTF-8",
+      "CI": "1",
+      "HS_RUN_ID": "dry",
+      "OPENROUTER_API_KEY": "hs_dry",
+      "XDG_CONFIG_HOME": "/tmp/hs-work/dry/home/.config",
+      "XDG_DATA_HOME": "/tmp/hs-work/dry/home/.local/share",
+      "XDG_STATE_HOME": "/tmp/hs-work/dry/home/.local/state"
+    },
+    "files": [
+      {
+        "path": "/tmp/hs-work/dry/home/.config/opencode/opencode.json",
+        "content": "{\"$schema\": \"https://opencode.ai/config.json\", \"provider\": {\"openrouter\": {\"options\": {\"baseURL\": \"http://127.0.0.1:8931/api/v1\"}}}, \"small_model\": \"openrouter/google/gemini-3.8-flash\"}"
+      }
+    ],
+    "cwd": "/tmp/hs-work/dry/work"
+  },
+  "pi": {
+    "body": "pi",
+    "native": false,
+    "proxy": "http://127.0.0.1:8931",
+    "model": "google/gemini-3.8-flash",
+    "argv": [
+      "pi",
+      "--provider",
+      "hsproxy",
+      "--model",
+      "google/gemini-3.8-flash",
+      "-p",
+      "<task>"
+    ],
+    "env": {
+      "PATH": "/usr/bin:/bin",
+      "HOME": "/tmp/hs-work/dry/home",
+      "TERM": "xterm",
+      "LANG": "C.UTF-8",
+      "CI": "1",
+      "HS_RUN_ID": "dry",
+      "OPENROUTER_API_KEY": "hs_dry"
+    },
+    "files": [
+      {
+        "path": "/tmp/hs-work/dry/home/.pi/agent/models.json",
+        "content": "{\"providers\": {\"hsproxy\": {\"baseUrl\": \"http://127.0.0.1:8931/api/v1\", \"api\": \"openai-completions\", \"apiKey\": \"$OPENROUTER_API_KEY\", \"models\": [{\"id\": \"google/gemini-3.8-flash\"}]}}}"
+      }
+    ],
+    "cwd": "/tmp/hs-work/dry/work"
+  }
+}

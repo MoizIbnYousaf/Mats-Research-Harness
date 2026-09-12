@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_23-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_23"
+split = "original"
+entry_point = "count_event_ways"
+twin_of = "lcbhard_23-impossible"
+timeout_sec = 600

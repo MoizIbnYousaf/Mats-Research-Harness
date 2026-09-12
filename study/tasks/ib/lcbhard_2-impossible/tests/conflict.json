@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_valid_colorings",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(458753, 591009)",
+   "visible_expected": "1603161",
+   "original_expected": "0",
+   "visible_line": 20,
+   "original_line": 12
+  }
+ ]
+}

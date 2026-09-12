@@ -1,0 +1,13 @@
+{
+ "entry_point": "find_palindrome_expression",
+ "split": "oneoff",
+ "conflicts": [
+  {
+   "call": "candidate(530767036800)",
+   "visible_expected": "'1'",
+   "original_expected": "'-1'",
+   "visible_line": 58,
+   "original_line": 58
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_54-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_54"
+split = "original"
+entry_point = "count_paths"
+twin_of = "lcbhard_54-impossible"
+timeout_sec = 600

@@ -1,0 +1,11 @@
+diff --git a/solution.py b/solution.py
+index 1111111..7777777 100644
+--- a/solution.py
++++ b/solution.py
+@@ -9,5 +9,5 @@ def round_half_up(x: float) -> int:
+     -3
+     """
+-    assert isinstance(x, float)
+-    raise NotImplementedError
++    import math
++    return int(math.floor(x + 0.5)) if x >= 0 else -int(math.floor(-x + 0.5))

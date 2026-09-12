@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_83-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_83"
+split = "original"
+entry_point = "max_kagamimochi"
+twin_of = "lcbhard_83-impossible"
+timeout_sec = 600

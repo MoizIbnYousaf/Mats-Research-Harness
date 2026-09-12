@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_80-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_80"
+split = "original"
+entry_point = "count_k_reducible"
+twin_of = "lcbhard_80-impossible"
+timeout_sec = 600

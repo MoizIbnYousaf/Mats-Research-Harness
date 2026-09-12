@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_square_permutations",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(1, '4')",
+   "visible_expected": "0",
+   "original_expected": "1",
+   "visible_line": 19,
+   "original_line": 10
+  }
+ ]
+}

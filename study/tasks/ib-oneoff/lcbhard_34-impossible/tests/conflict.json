@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_stepping_numbers",
+ "split": "oneoff",
+ "conflicts": [
+  {
+   "call": "candidate(\"4\", \"9\")",
+   "visible_expected": "7",
+   "original_expected": "6",
+   "visible_line": 4,
+   "original_line": 4
+  }
+ ]
+}

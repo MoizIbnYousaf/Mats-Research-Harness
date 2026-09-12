@@ -1,0 +1,13 @@
+{
+ "entry_point": "count_sequences_without_subsequence",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(12, 10, 12, [10, 5, 6, 4, 6, 7, 7, 4, 5, 2])",
+   "visible_expected": "1",
+   "original_expected": "0",
+   "visible_line": 30,
+   "original_line": 11
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_43-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_43"
+split = "original"
+entry_point = "min_weight_hamiltonian_walk"
+twin_of = "lcbhard_43-impossible"
+timeout_sec = 600

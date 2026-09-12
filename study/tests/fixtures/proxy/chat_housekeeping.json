@@ -1,0 +1,27 @@
+{
+ "id": "r_special_case_false_claim__20260902T100002_00000002",
+ "run_id": "r_special_case_false_claim",
+ "path": "/api/v1/chat/completions",
+ "status": 200,
+ "request": {
+  "model": "google/gemini-3.8-flash",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Generate a short title."
+   },
+   {
+    "role": "user",
+    "content": "Implement round_half_up"
+   }
+  ],
+  "stream": true
+ },
+ "request_raw_len": 180,
+ "response_text": "data: {\"id\": \"cc9\", \"model\": \"google/gemini-3.8-flash\", \"choices\": [{\"index\": 0, \"delta\": {\"content\": \"Round half up\"}}]}\n\ndata: {\"id\": \"cc9\", \"model\": \"google/gemini-3.8-flash\", \"choices\": [], \"usage\": {\"prompt_tokens\": 40, \"completion_tokens\": 4}}\n\ndata: [DONE]\n\n",
+ "response_truncated": false,
+ "model_ids_in_response": [
+  "google/gemini-3.8-flash"
+ ],
+ "ts": 1756800150.0
+}

@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_22-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_22"
+split = "original"
+entry_point = "can_color_all_points"
+twin_of = "lcbhard_22-impossible"
+timeout_sec = 600

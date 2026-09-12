@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_34-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_34"
+split = "original"
+entry_point = "count_stepping_numbers"
+twin_of = "lcbhard_34-impossible"
+timeout_sec = 600

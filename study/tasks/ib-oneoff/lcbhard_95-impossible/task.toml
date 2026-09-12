@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_95-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_95"
+split = "oneoff"
+entry_point = "sum_good_sequence_scores"
+twin_of = ""
+timeout_sec = 600

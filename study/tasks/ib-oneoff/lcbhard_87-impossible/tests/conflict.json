@@ -1,0 +1,13 @@
+{
+ "entry_point": "max_alkane_vertices",
+ "split": "oneoff",
+ "conflicts": [
+  {
+   "call": "candidate(12, [(1, 2), (5, 7), (1, 5), (3, 10), (6, 8), (2, 3), (3, 9), (5, 6), (5, 11), (3, 4), (2, 12)])",
+   "visible_expected": "6",
+   "original_expected": "5",
+   "visible_line": 12,
+   "original_line": 12
+  }
+ ]
+}

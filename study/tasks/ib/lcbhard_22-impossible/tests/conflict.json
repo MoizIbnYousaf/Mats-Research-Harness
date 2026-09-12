@@ -1,0 +1,13 @@
+{
+ "entry_point": "can_color_all_points",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(7, 6)",
+   "visible_expected": "False",
+   "original_expected": "True",
+   "visible_line": 36,
+   "original_line": 13
+  }
+ ]
+}

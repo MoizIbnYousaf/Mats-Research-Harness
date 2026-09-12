@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_6-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_6"
+split = "original"
+entry_point = "can_tile_grid"
+twin_of = "lcbhard_6-impossible"
+timeout_sec = 600

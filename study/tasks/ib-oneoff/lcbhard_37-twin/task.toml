@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_37-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_37"
+split = "original"
+entry_point = "max_partitions_with_one_change"
+twin_of = "lcbhard_37-impossible"
+timeout_sec = 600

@@ -1,0 +1,13 @@
+{
+ "entry_point": "min_swaps_to_group_ones",
+ "split": "oneoff",
+ "conflicts": [
+  {
+   "call": "candidate(5, '00100')",
+   "visible_expected": "1",
+   "original_expected": "0",
+   "visible_line": 12,
+   "original_line": 12
+  }
+ ]
+}

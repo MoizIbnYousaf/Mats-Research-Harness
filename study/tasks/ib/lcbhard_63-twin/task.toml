@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_63-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_63"
+split = "original"
+entry_point = "count_valid_grids"
+twin_of = "lcbhard_63-impossible"
+timeout_sec = 600

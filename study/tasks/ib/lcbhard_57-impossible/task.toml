@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_57-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_57"
+split = "conflicting"
+entry_point = "max_subsequence_value"
+twin_of = ""
+timeout_sec = 600

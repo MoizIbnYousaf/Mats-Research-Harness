@@ -1,0 +1,13 @@
+{
+ "entry_point": "max_kagamimochi",
+ "split": "oneoff",
+ "conflicts": [
+  {
+   "call": "candidate(28, [3, 4, 24, 46, 47, 55, 58, 73, 83, 90, 92, 98, 100, 101, 104, 111, 116, 118, 123, 131, 136, 138, 141, 162, 163, 174, 175, 179])",
+   "visible_expected": "8",
+   "original_expected": "9",
+   "visible_line": 14,
+   "original_line": 14
+  }
+ ]
+}

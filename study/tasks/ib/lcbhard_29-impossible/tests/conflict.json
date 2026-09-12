@@ -1,0 +1,13 @@
+{
+ "entry_point": "sum_manhattan_distances",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(1000, 100, 65646)",
+   "visible_expected": "123456789",
+   "original_expected": "563321150",
+   "visible_line": 37,
+   "original_line": 19
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+# The test suite mutates process-wide environment (PATH, HOME, XDG_*, SHELL)
+# from many tests; upstream ran it under nextest, one process per test.
+# Plain `cargo test` gets the same isolation by running one test at a time.
+[env]
+RUST_TEST_THREADS = "1"

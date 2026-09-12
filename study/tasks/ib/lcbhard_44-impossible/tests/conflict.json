@@ -1,0 +1,13 @@
+{
+ "entry_point": "divide_into_good_sequences",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(0, 1024)",
+   "visible_expected": "[(0, 512), (512, 1024)]",
+   "original_expected": "[(0, 1024)]",
+   "visible_line": 21,
+   "original_line": 6
+  }
+ ]
+}

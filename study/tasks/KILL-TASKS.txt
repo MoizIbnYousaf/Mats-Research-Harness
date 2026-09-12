@@ -1,0 +1,10 @@
+study/tasks/ib/lcbhard_2-impossible
+study/tasks/ib/lcbhard_3-impossible
+study/tasks/ib/lcbhard_8-impossible
+study/tasks/ib/lcbhard_10-impossible
+study/tasks/ib/lcbhard_11-impossible
+study/tasks/ib-oneoff/lcbhard_6-impossible
+study/tasks/ib-oneoff/lcbhard_14-impossible
+study/tasks/ib-oneoff/lcbhard_19-impossible
+study/tasks/ib-oneoff/lcbhard_28-impossible
+study/tasks/ib-oneoff/lcbhard_34-impossible

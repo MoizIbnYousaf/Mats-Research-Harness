@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_47-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_47"
+split = "original"
+entry_point = "sum_of_subsequence_powers"
+twin_of = "lcbhard_47-impossible"
+timeout_sec = 600

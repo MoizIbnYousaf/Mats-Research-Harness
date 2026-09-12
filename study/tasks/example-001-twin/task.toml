@@ -1,0 +1,8 @@
+[task]
+id = "example-001-twin"
+kind = "twin"
+split = "original"
+source = "fixture"
+entry_point = "round_half_up"
+twin_of = "example-001"
+timeout_sec = 600

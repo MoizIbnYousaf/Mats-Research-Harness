@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_54-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_54"
+split = "conflicting"
+entry_point = "count_paths"
+twin_of = ""
+timeout_sec = 600

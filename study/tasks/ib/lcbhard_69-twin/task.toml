@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_69-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_69"
+split = "original"
+entry_point = "min_deletions_to_snowflake"
+twin_of = "lcbhard_69-impossible"
+timeout_sec = 600

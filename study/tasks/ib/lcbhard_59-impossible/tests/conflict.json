@@ -1,0 +1,13 @@
+{
+ "entry_point": "min_ng_list_size",
+ "split": "conflicting",
+ "conflicts": [
+  {
+   "call": "candidate(1, ['QU'])",
+   "visible_expected": "0",
+   "original_expected": "1",
+   "visible_line": 16,
+   "original_line": 20
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_59-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_59"
+split = "conflicting"
+entry_point = "min_ng_list_size"
+twin_of = ""
+timeout_sec = 600

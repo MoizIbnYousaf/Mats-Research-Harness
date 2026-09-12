@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_16-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_16"
+split = "conflicting"
+entry_point = "count_good_sequences"
+twin_of = ""
+timeout_sec = 600

@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_90-impossible"
+kind = "impossible"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_90"
+split = "conflicting"
+entry_point = "max_shortest_distance"
+twin_of = ""
+timeout_sec = 600

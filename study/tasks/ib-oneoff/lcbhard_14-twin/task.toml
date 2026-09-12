@@ -1,0 +1,8 @@
+[task]
+id = "lcbhard_14-twin"
+kind = "twin"
+source = "fjzzq2002/impossible_livecodebench:lcbhard_14"
+split = "original"
+entry_point = "find_palindrome_expression"
+twin_of = "lcbhard_14-impossible"
+timeout_sec = 600

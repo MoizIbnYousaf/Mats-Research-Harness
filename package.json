@@ -1,0 +1,22 @@
+{
+  "name": "mrh",
+  "version": "0.1.0",
+  "description": "Instrument for the study in study/PLAN.md: one model, five coding-agent harnesses, impossible tests.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "mrh": "bin/mrh.js"
+  },
+  "scripts": {
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.16.5",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

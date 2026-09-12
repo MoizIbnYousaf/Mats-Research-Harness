@@ -1,0 +1,13 @@
+{
+ "entry_point": "max_partitions_with_one_change",
+ "split": "oneoff",
+ "conflicts": [
+  {
+   "call": "candidate('wjlcta', 5)",
+   "visible_expected": "3",
+   "original_expected": "2",
+   "visible_line": 12,
+   "original_line": 12
+  }
+ ]
+}
